@@ -8,13 +8,17 @@ import Cart from './components/Cart'
 import Dashboard from './components/Dashboard'
 import Main from './components/Main'
 import { BrowserRouter as Router, Route , Routes} from "react-router-dom";
+import Navbar from './components/Navbar';
+
 
 function App() {
   return (
     <>
+        
        <Router>
+        <Navbar/>
         <Routes>
-          <Route exact path="/" element={<Login />} />
+          <Route exact path="/" element={<Login/>} />
           <Route exact path="/Signup" element={<Signup />} />
           <Route exact path="/Main" element={<Main />} />
           <Route exact path="/Home" element={<Home />} />
