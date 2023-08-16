@@ -4,7 +4,7 @@ const CartIcon = () => {
   return (
     <Link to='/Cart' className="flex items-center gap-4">
     <div className=' w-2 h-2 relative  '>
-        <img src="/carts.png" alt=""  height={30} width={30}/>
+        <img src="/carts.png" alt=""  height={20} width={30}/>
     </div>
     <span>Cart(3)</span>
     </Link>
