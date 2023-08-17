@@ -16,7 +16,7 @@ return (
   {!open?(<img src='/open.png' alt='' width={20} height={20} onClick={()=>Setopen(true)}/>):
   (<img src='/close.png' alt='' width={20} height={20} onClick={()=>Setopen(false)}/>)}
    {
-   open && (<div className='bg-red-500 text-white absolute left-0 top-24 h-[calc(100vh-6rem)] w-full flex flex-col items-center justify-center gap-8 z-10'>
+   open && (<div className='bg-sky-500 text-white absolute left-0 top-24 h-[calc(100vh)] w-full flex flex-col items-center justify-center gap-8 z-10'>
     {links.map(item=>(
         <Link to={item.url} key={item.id} onClick={()=>Setopen(false)}>{item.title} </Link>
     ))}

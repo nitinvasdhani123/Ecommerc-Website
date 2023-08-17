@@ -19,8 +19,8 @@ function Login() {
 	</div>
 	<div className="flex md:w-1/2 justify-center py-10 items-center bg-white">
 		<form className="bg-white">
-			<h1 className="text-gray-800 font-bold text-2xl mb-1">Hello Again!</h1>
-			<p className="text-sm font-normal text-gray-600 mb-7">Welcome Back</p>
+			<h1 className="text-gray-800 font-bold text-2xl md:text-4xl mb-1">Hello Again!</h1>
+			<p className="text-sm font-normal text-gray-600 md:text-2xl mb-7">Welcome Back</p>
 			<div className="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
 				<svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400" viewBox="0 0 20 20"
 					fill="currentColor">
