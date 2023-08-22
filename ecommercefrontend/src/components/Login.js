@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Login() {
   return (
 	
-<div className=" h-[94vh] md:flex ">
+<div className=" h-[80vh] md:flex ">
 	<div
 		className="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr from-blue-800 to-purple-700 i justify-around items-center hidden">
 		<div>
