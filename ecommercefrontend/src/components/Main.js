@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
+
 
 function Main() {
   return (
     <div>
-        <Navbar/>
+        Kch nahi hai abhi
     </div>
   )
 }
